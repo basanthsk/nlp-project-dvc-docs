@@ -1,5 +1,5 @@
 # Project information
-site_name: nlp-project-dvc-docs
+site_name: NLP Project with DVC
 # defeine TOC or order of website-
 nav:
   - Home: index.md
