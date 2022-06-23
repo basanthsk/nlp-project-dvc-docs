@@ -1,0 +1,125 @@
+[2022-06-21 20:40:49,986: INFO: stage_00_stage1]: 
+********************
+[2022-06-21 20:40:49,986: INFO: stage_00_stage1]: >>>>> stage Prepare Data started <<<<<
+[2022-06-21 20:40:49,994: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2022-06-21 20:40:49,996: INFO: common]: yaml file: params.yaml loaded successfully
+[2022-06-21 20:40:49,996: INFO: stage_00_stage1]: >>>>> stage Prepare Data completed!<<<<<
+
+[2022-06-21 20:41:22,758: INFO: stage_00_stage1]: 
+********************
+[2022-06-21 20:41:22,758: INFO: stage_00_stage1]: >>>>> stage Prepare Data started <<<<<
+[2022-06-21 20:41:22,764: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2022-06-21 20:41:22,766: INFO: common]: yaml file: params.yaml loaded successfully
+[2022-06-21 20:41:22,766: INFO: stage_00_stage1]: >>>>> stage Prepare Data completed!<<<<<
+
+[2022-06-21 22:50:52,827: INFO: stage_00_stage1]: 
+********************
+[2022-06-21 22:50:52,828: INFO: stage_00_stage1]: >>>>> stage Prepare Data started <<<<<
+[2022-06-21 22:50:52,834: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2022-06-21 22:50:52,835: INFO: common]: yaml file: params.yaml loaded successfully
+[2022-06-21 22:50:52,836: INFO: stage_00_stage1]: >>>>> stage Prepare Data completed!<<<<<
+
+[2022-06-21 22:52:59,669: INFO: stage_00_stage1]: 
+********************
+[2022-06-21 22:52:59,670: INFO: stage_00_stage1]: >>>>> stage Prepare Data started <<<<<
+[2022-06-21 22:52:59,681: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2022-06-21 22:52:59,686: INFO: common]: yaml file: params.yaml loaded successfully
+[2022-06-21 22:52:59,687: INFO: stage_00_stage1]: >>>>> stage Prepare Data completed!<<<<<
+
+[2022-06-21 22:53:03,027: INFO: stage_00_stage1]: 
+********************
+[2022-06-21 22:53:03,027: INFO: stage_00_stage1]: >>>>> stage Prepare Data started <<<<<
+[2022-06-21 22:53:03,046: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2022-06-21 22:53:03,051: INFO: common]: yaml file: params.yaml loaded successfully
+[2022-06-21 22:53:03,052: INFO: stage_00_stage1]: >>>>> stage Prepare Data completed!<<<<<
+
+[2022-06-21 22:53:32,170: INFO: stage_00_stage1]: 
+********************
+[2022-06-21 22:53:32,170: INFO: stage_00_stage1]: >>>>> stage Prepare Data started <<<<<
+[2022-06-21 22:53:32,180: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2022-06-21 22:53:32,183: INFO: common]: yaml file: params.yaml loaded successfully
+[2022-06-21 22:53:32,196: INFO: stage_00_stage1]: >>>>> stage Prepare Data completed!<<<<<
+
+[2022-06-21 22:53:58,219: INFO: stage_00_stage1]: 
+********************
+[2022-06-21 22:53:58,219: INFO: stage_00_stage1]: >>>>> stage Prepare Data started <<<<<
+[2022-06-21 22:53:58,227: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2022-06-21 22:53:58,229: INFO: common]: yaml file: params.yaml loaded successfully
+[2022-06-21 22:53:58,232: INFO: stage_00_stage1]: >>>>> stage Prepare Data completed!<<<<<
+
+[2022-06-21 22:54:34,777: INFO: stage_00_stage1]: 
+********************
+[2022-06-21 22:54:34,777: INFO: stage_00_stage1]: >>>>> stage Prepare Data started <<<<<
+[2022-06-21 22:54:34,783: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2022-06-21 22:54:34,785: INFO: common]: yaml file: params.yaml loaded successfully
+[2022-06-21 22:54:34,786: INFO: stage_00_stage1]: >>>>> stage Prepare Data completed!<<<<<
+
+[2022-06-23 01:19:24,145: INFO: stage_00_stage1]: 
+********************
+[2022-06-23 01:19:24,145: INFO: stage_00_stage1]: >>>>> stage Prepare Data started <<<<<
+[2022-06-23 01:19:24,157: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2022-06-23 01:19:24,158: INFO: common]: yaml file: params.yaml loaded successfully
+[2022-06-23 01:19:24,159: ERROR: stage_00_stage1]: module 'os' has no attribute 'join'
+Traceback (most recent call last):
+  File "f:/ineuron/NLP/nlp-project-dvc-docs/src/stage_00_stage1.py", line 47, in <module>
+    main(config_path=parsed_args.config, params_path=parsed_args.params)
+  File "f:/ineuron/NLP/nlp-project-dvc-docs/src/stage_00_stage1.py", line 26, in main
+    source_data_path = os.join.path(source_data_dir,source_data_file)
+AttributeError: module 'os' has no attribute 'join'
+[2022-06-23 01:19:56,185: INFO: stage_00_stage1]: 
+********************
+[2022-06-23 01:19:56,185: INFO: stage_00_stage1]: >>>>> stage Prepare Data started <<<<<
+[2022-06-23 01:19:56,191: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2022-06-23 01:19:56,192: INFO: common]: yaml file: params.yaml loaded successfully
+[2022-06-23 01:19:56,194: INFO: common]: created directory at: artifacts\prepared
+[2022-06-23 01:19:56,194: INFO: stage_00_stage1]: >>>>> stage Prepare Data completed!<<<<<
+
+[2022-06-23 17:11:26,241: INFO: stage_00_stage1]: 
+********************
+[2022-06-23 17:11:26,241: INFO: stage_00_stage1]: >>>>> stage Prepare Data started <<<<<
+[2022-06-23 17:11:26,254: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2022-06-23 17:11:26,260: INFO: common]: yaml file: params.yaml loaded successfully
+[2022-06-23 17:11:26,261: INFO: common]: created directory at: artifacts\prepared
+[2022-06-23 17:11:26,262: ERROR: stage_00_stage1]: 'TEST_DATA'
+Traceback (most recent call last):
+  File "f:/ineuron/NLP/nlp-project-dvc-docs/src/stage_00_stage1.py", line 58, in <module>
+    main(config_path=parsed_args.config, params_path=parsed_args.params)
+  File "f:/ineuron/NLP/nlp-project-dvc-docs/src/stage_00_stage1.py", line 40, in main
+    test_data_path = os.path.join(prepare_data_dir_path,artifacts["TEST_DATA"])
+KeyError: 'TEST_DATA'
+[2022-06-23 17:11:59,057: INFO: stage_00_stage1]: 
+********************
+[2022-06-23 17:11:59,058: INFO: stage_00_stage1]: >>>>> stage Prepare Data started <<<<<
+[2022-06-23 17:11:59,083: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2022-06-23 17:11:59,086: INFO: common]: yaml file: params.yaml loaded successfully
+[2022-06-23 17:11:59,087: INFO: common]: created directory at: artifacts\prepared
+[2022-06-23 17:11:59,088: ERROR: stage_00_stage1]: [Errno 2] No such file or directory: 'artifacts\\prepared\\train.tsv'
+Traceback (most recent call last):
+  File "f:/ineuron/NLP/nlp-project-dvc-docs/src/stage_00_stage1.py", line 58, in <module>
+    main(config_path=parsed_args.config, params_path=parsed_args.params)
+  File "f:/ineuron/NLP/nlp-project-dvc-docs/src/stage_00_stage1.py", line 45, in main
+    with open(train_data_path,encoding=encode) as fd_out_train:
+FileNotFoundError: [Errno 2] No such file or directory: 'artifacts\\prepared\\train.tsv'
+[2022-06-23 17:14:01,396: INFO: stage_00_stage1]: 
+********************
+[2022-06-23 17:14:01,397: INFO: stage_00_stage1]: >>>>> stage Prepare Data started <<<<<
+[2022-06-23 17:14:01,406: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2022-06-23 17:14:01,409: INFO: common]: yaml file: params.yaml loaded successfully
+[2022-06-23 17:14:01,410: INFO: common]: created directory at: artifacts\prepared
+[2022-06-23 17:14:01,419: ERROR: stage_00_stage1]: 'module' object is not callable
+Traceback (most recent call last):
+  File "f:/ineuron/NLP/nlp-project-dvc-docs/src/stage_00_stage1.py", line 58, in <module>
+    main(config_path=parsed_args.config, params_path=parsed_args.params)
+  File "f:/ineuron/NLP/nlp-project-dvc-docs/src/stage_00_stage1.py", line 47, in main
+    process_posts(fd_in, fd_out_train,fd_out_test, "<python>",split)
+  File "f:\ineuron\nlp\nlp-project-dvc-docs\src\utils\data_mgmt.py", line 9, in process_posts
+    for line in tqdm(fd_in):
+TypeError: 'module' object is not callable
+[2022-06-23 17:17:12,476: INFO: stage_00_stage1]: 
+********************
+[2022-06-23 17:17:12,476: INFO: stage_00_stage1]: >>>>> stage Prepare Data started <<<<<
+[2022-06-23 17:17:12,491: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2022-06-23 17:17:12,494: INFO: common]: yaml file: params.yaml loaded successfully
+[2022-06-23 17:17:12,495: INFO: common]: created directory at: artifacts\prepared
+[2022-06-23 17:17:20,312: INFO: stage_00_stage1]: >>>>> stage Prepare Data completed!<<<<<
+

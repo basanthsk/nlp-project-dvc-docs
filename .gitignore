@@ -141,3 +141,5 @@ configs/secrets.yaml
 
 data/data.xml
 
+artifacts/prepared/test.tsv
+artifacts/prepared/train.tsv
