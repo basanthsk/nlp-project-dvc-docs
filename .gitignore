@@ -145,3 +145,5 @@ artifacts/features/test.pkl
 artifacts/features/train.pkl
 logs/running_logs.log
 data/data.xml
+src/test.py
+logs/running_logs.log

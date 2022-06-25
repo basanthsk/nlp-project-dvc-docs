@@ -10,7 +10,7 @@ import numpy as np
 import joblib
 
 
-STAGE = "STAGE_NAME" ## <<< change stage name 
+STAGE = "Training" ## <<< change stage name 
 
 logging.basicConfig(
     filename=os.path.join("logs", 'running_logs.log'), 

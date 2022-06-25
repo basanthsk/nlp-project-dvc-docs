@@ -10,7 +10,7 @@ import numpy as np
 from sklearn.feature_extraction.text import CountVectorizer,TfidfTransformer
 
 
-STAGE = "STAGE_NAME" ## <<< change stage name 
+STAGE = "Featurization" ## <<< change stage name 
 
 logging.basicConfig(
     filename=os.path.join("logs", 'running_logs.log'), 

@@ -28,8 +28,8 @@ stages:
       size: 23886351
       nfiles: 2
     - path: src/stage_02_featurization.py
-      md5: ad777d507a2e9596ae511860cefbd1d3
-      size: 2983
+      md5: 38883c8d81963e51aefb3f9bde1da8a6
+      size: 2986
     - path: src/utils
       md5: 607f813d92c0942a035a953bed569298.dir
       size: 7053
@@ -42,13 +42,12 @@ stages:
   training:
     cmd: python src/stage_03_train.py
     deps:
-    - path: artifacts/features
-      md5: 2638a56d12c43583c71dc6f020a45b54.dir
-      size: 12272480
-      nfiles: 2
+    - path: artifacts/features/train.pkl
+      md5: 296954b676c7102e4212fa3e7d7691ed
+      size: 8558640
     - path: src/stage_03_train.py
-      md5: e549549cb2286a90d24d5d4a200daefb
-      size: 2453
+      md5: 0693281cafc064f099e44644f50918f9
+      size: 2451
     - path: src/utils
       md5: 607f813d92c0942a035a953bed569298.dir
       size: 7053
@@ -57,3 +56,29 @@ stages:
     - path: artifacts/model/model.pkl
       md5: 4753dde91d321465760505101841392e
       size: 3119312
+  evaluation:
+    cmd: python src/stage_04_evaluate.py
+    deps:
+    - path: artifacts/features/test.pkl
+      md5: 082d39185c64d407966f659a8f55a7fb
+      size: 3713840
+    - path: artifacts/model/model.pkl
+      md5: 4753dde91d321465760505101841392e
+      size: 3119312
+    - path: src/stage_04_evaluate.py
+      md5: ad0a6ba41d77cd8ab502fa472fbd7d40
+      size: 2852
+    - path: src/utils
+      md5: 607f813d92c0942a035a953bed569298.dir
+      size: 7053
+      nfiles: 8
+    outs:
+    - path: prc.json
+      md5: 4a510413d6fbcc500ddeb1190359725d
+      size: 282
+    - path: roc.json
+      md5: c0c89c59af78dcb6e6af90ff3910358b
+      size: 368
+    - path: scores.json
+      md5: 35f944bdcdf967895caadf27e34d247c
+      size: 76
