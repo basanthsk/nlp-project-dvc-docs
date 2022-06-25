@@ -139,11 +139,9 @@ configs/secrets.yaml
 
 # add your env folder here if its there
 
-data/data.xml
 
-artifacts/prepared/test.tsv
-artifacts/prepared/train.tsv
-logs/running_logs.log
-artifacts/features/train.pkl
-artifacts/features/test.pkl
 reserach/vectrization.ipynb
+artifacts/features/test.pkl
+artifacts/features/train.pkl
+logs/running_logs.log
+data/data.xml
